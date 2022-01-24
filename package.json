@@ -11,7 +11,7 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "ember build --environment=production",
+    "build:ember": "ember build --environment=production",
     "lint": "npm-run-all --aggregate-output --continue-on-error --parallel \"lint:!(fix)\"",
     "lint:fix": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*:fix",
     "lint:hbs": "ember-template-lint .",
@@ -22,7 +22,8 @@
     "test": "npm-run-all lint test:*",
     "test:ember": "ember test",
     "tauri": "tauri",
-    "dev": "npm-run-all --aggregate-output --continue-on-error --parallel start \"tauri dev\""
+    "dev": "npm-run-all --aggregate-output --continue-on-error --parallel start \"tauri dev\"",
+    "build": "npm-run-all build:ember \"tauri build\""
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
