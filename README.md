@@ -35,6 +35,8 @@ Run `pnpm dev` to start the ember application and tauri in development mode.
 
 Run `pnpm build` to build the binaries.
 
+Right now the build with Fedora 35 fails: https://github.com/tauri-apps/tauri/issues/3278
+
 ## Great stuff
 
 - [restic](https://restic.net/)
