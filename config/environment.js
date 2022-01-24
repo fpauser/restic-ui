@@ -2,7 +2,7 @@
 
 module.exports = function (environment) {
   let ENV = {
-    modulePrefix: 'restic-backup-ui',
+    modulePrefix: 'restic-ui',
     environment,
     rootURL: '/',
     locationType: 'auto',

@@ -1,5 +1,5 @@
-import Application from 'restic-backup-ui/app';
-import config from 'restic-backup-ui/config/environment';
+import Application from 'restic-ui/app';
+import config from 'restic-ui/config/environment';
 import * as QUnit from 'qunit';
 import { setApplication } from '@ember/test-helpers';
 import { setup } from 'qunit-dom';

@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "restic-backup-ui",
+    "productName": "restic-ui",
     "version": "0.1.0"
   },
   "build": {
@@ -53,7 +53,7 @@
     },
     "windows": [
       {
-        "title": "restic-backup-ui",
+        "title": "restic-ui",
         "width": 800,
         "height": 600,
         "resizable": true,
