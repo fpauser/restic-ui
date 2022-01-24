@@ -8,7 +8,9 @@ Under the hood tauri and Ember.js are used.
 
 Follow the guides at https://tauri.studio/docs/get-started/intro
 
-### Setup Fedora
+### Additional prerequisites
+
+#### Fedora
 
 The following additional packages are required:
 
@@ -18,6 +20,20 @@ The following additional packages are required:
     libappindicator-gtk3-devel.x86_64 \
     patchelf
 ```
+
+#### Install pnpm
+
+`npm install -g pnpm`
+
+### Development
+
+Run `pnpm i` to install all dependencies.
+
+Run `pnpm dev` to start the ember application and tauri in development mode.
+
+### Building
+
+Run `pnpm build` to build the binaries.
 
 ## Great stuff
 
