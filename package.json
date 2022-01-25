@@ -23,7 +23,9 @@
     "test:ember": "ember test",
     "tauri": "tauri",
     "dev": "npm-run-all --aggregate-output --continue-on-error --parallel start \"tauri dev\"",
-    "build": "npm-run-all build:ember \"tauri build\""
+    "build": "npm-run-all build:ember \"tauri build\"",
+    "container:build": "podman build -t restic-ui-fedora -f Containerfile",
+    "container:run": "podman run --rm -ti -v $(pwd)/:/restic-ui:Z restic-ui-fedora"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
