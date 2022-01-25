@@ -29,15 +29,14 @@ The following additional packages are required:
 
 Run `pnpm i` to install all dependencies.
 
-Run `pnpm dev` to start the ember application and tauri in development mode.
+Run `pnpm tauri:dev` to start the ember application and tauri in development mode.
 
 ### Building
 
-Run `pnpm build` to build the binaries.
+Run `pnpm tauri:build:release` to build release binaries
+Run `pnpm tauri:build:debug` for building debug binaries.
 
-Right now the build with Fedora 35 fails: https://github.com/tauri-apps/tauri/issues/3278
-
-## Great stuff
+## Stack
 
 - [restic](https://restic.net/)
 - [tauri](https://tauri.studio/)
